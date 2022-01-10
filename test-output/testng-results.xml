@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13371" started-at="2022-01-10T21:03:23Z" finished-at="2022-01-10T21:03:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13371" started-at="2022-01-10T21:03:23Z" finished-at="2022-01-10T21:03:36Z">
+      <class name="com.condos.ui.scenarios.ScenariosOnScreen">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.condos.ui.scenarios.ScenariosOnScreen@79efed2d]" name="setup" is-config="true" duration-ms="2876" started-at="2022-01-10T16:03:23Z" finished-at="2022-01-10T16:03:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="pageTitleTest()[pri:0, instance:com.condos.ui.scenarios.ScenariosOnScreen@79efed2d]" name="pageTitleTest" duration-ms="42" started-at="2022-01-10T16:03:26Z" finished-at="2022-01-10T16:03:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.condos.ui.scenarios.ScenariosOnScreen@79efed2d]" name="login" duration-ms="3168" started-at="2022-01-10T16:03:26Z" finished-at="2022-01-10T16:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="searchLocation()[pri:0, instance:com.condos.ui.scenarios.ScenariosOnScreen@79efed2d]" name="searchLocation" duration-ms="1156" started-at="2022-01-10T16:03:29Z" depends-on-methods="com.condos.ui.scenarios.ScenariosOnScreen.login" finished-at="2022-01-10T16:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchLocation -->
+        <test-method status="PASS" signature="sortButtonSearchResults()[pri:0, instance:com.condos.ui.scenarios.ScenariosOnScreen@79efed2d]" name="sortButtonSearchResults" duration-ms="3194" started-at="2022-01-10T16:03:30Z" depends-on-methods="com.condos.ui.scenarios.ScenariosOnScreen.searchLocation" finished-at="2022-01-10T16:03:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortButtonSearchResults -->
+        <test-method status="PASS" signature="writePreviewToJson()[pri:0, instance:com.condos.ui.scenarios.ScenariosOnScreen@79efed2d]" name="writePreviewToJson" duration-ms="236" started-at="2022-01-10T16:03:33Z" depends-on-methods="com.condos.ui.scenarios.ScenariosOnScreen.sortButtonSearchResults" finished-at="2022-01-10T16:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writePreviewToJson -->
+        <test-method status="PASS" signature="selectProperty()[pri:0, instance:com.condos.ui.scenarios.ScenariosOnScreen@79efed2d]" name="selectProperty" duration-ms="250" started-at="2022-01-10T16:03:34Z" depends-on-methods="com.condos.ui.scenarios.ScenariosOnScreen.writePreviewToJson" finished-at="2022-01-10T16:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProperty -->
+        <test-method status="PASS" signature="writeDetailsToJson()[pri:0, instance:com.condos.ui.scenarios.ScenariosOnScreen@79efed2d]" name="writeDetailsToJson" duration-ms="1698" started-at="2022-01-10T16:03:34Z" depends-on-methods="com.condos.ui.scenarios.ScenariosOnScreen.selectProperty" finished-at="2022-01-10T16:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeDetailsToJson -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.condos.ui.scenarios.ScenariosOnScreen@79efed2d]" name="teardown" is-config="true" duration-ms="726" started-at="2022-01-10T16:03:36Z" finished-at="2022-01-10T16:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.condos.ui.scenarios.ScenariosOnScreen -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

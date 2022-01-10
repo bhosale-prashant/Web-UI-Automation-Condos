@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
+    <classes>
+      <class name="com.condos.ui.scenarios.ScenariosOnScreen">
+        <methods>
+          <include name="writePreviewToJson"/>
+          <include name="selectProperty"/>
+          <include name="writeDetailsToJson"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="searchLocation"/>
+          <include name="sortButtonSearchResults"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.condos.ui.scenarios.ScenariosOnScreen -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
